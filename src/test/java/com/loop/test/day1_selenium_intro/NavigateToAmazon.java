@@ -16,11 +16,6 @@ public class NavigateToAmazon {
         driver.navigate().forward();
         driver.navigate().refresh();
         driver.quit();
-
-
-
-
-
         /*
     navigate to amazon
     maximize
