@@ -8,7 +8,7 @@ public class SeleniumTest {
     public static void main(String[] args) throws InterruptedException {
 
         // setting up the web driver
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().clearDriverCache().setup();
 
         // create an instance of webdriver
         WebDriver driver = new ChromeDriver();
