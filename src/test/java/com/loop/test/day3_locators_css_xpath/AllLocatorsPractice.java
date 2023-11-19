@@ -12,6 +12,8 @@ public class AllLocatorsPractice {
         // setup the driver
         WebDriverManager.chromedriver().setup();
 
+        System.out.println();
+
         // create driver object
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
